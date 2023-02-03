@@ -1,0 +1,1 @@
+game:GetService("Players").LocalPlayer:Kick("Sorry homie, you get perm banned, you aint it G")
